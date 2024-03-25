@@ -1,0 +1,422 @@
+html{
+    font-size: 62.5%;
+}
+img {
+    width: 100%;
+}
+
+body{
+    color: black;
+    font-size: 1.2rem;
+    font-family:"Roboto", "\30D2\30E9\30AE\30CE\89D2\30B4 ProN W3", "Hiragino Kaku Gothic ProN", "\6E38\30B4\30B7\30C3\30AF Medium", "Yu Gothic Medium", "Yu Gothic", "\6E38\30B4\30B7\30C3\30AF", "YuGothic", " Meiryo", "\FF2D\FF33 \FF30\30B4\30B7\30C3\30AF", "MS PGothic", sans-serif;
+}
+
+#headline-news {
+    height: 40px;
+    line-height: 40px;
+    background-color: #c6c6c6;
+    color: white;
+}
+#headline-news .swiper-wrapper .swiper-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+#headline-news .swiper-button-prev::after,
+#headline-news .swiper-button-next::after {
+    content: "";
+}
+#headline-news .swiper-button-prev i,
+#headline-news .swiper-button-next i {
+    color: white;
+}
+h1 .h1_mobile{
+    display: none;
+}
+header {
+    width: 100%;
+    padding: 0 3em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+    margin: 0 auto;
+}
+header ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+header ul li {
+    margin-left: 20px;
+}
+nav {
+    border-top: solid 1px #ddd;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+#cover .swiper-wrapper_mobile {
+    display: none;
+}
+/* 戻るボタンのセレクタ */
+#cover .swiper-button-wrapper .swiper-button-prev {
+    --swiper-navigation-color: black;
+    background-color: #ffffff85;
+    padding: 0.5em;
+    font-size: 2em;;
+    width: auto;
+    height: auto;
+    left: 0;
+}
+#cover .swiper-button-wrapper .swiper-button-prev:hover {
+    --swiper-navigation-color: #fff;
+    background-color: black;
+    padding: 0.5em;
+    font-size: 2em;;
+    width: auto;
+    height: auto;
+    left: 0;
+}
+/* 進むボタンのセレクタ */
+#cover .swiper-button-wrapper .swiper-button-next {
+    --swiper-navigation-color: black;
+    background-color: #ffffff85;
+    padding: 0.5em;
+    font-size: 2em;;
+    width: auto;
+    height: auto;
+    right: 0;
+}
+#cover .swiper-button-wrapper .swiper-button-next:hover {
+    --swiper-navigation-color: #fff;
+    background-color: black;
+    padding: 0.5em;
+    font-size: 2em;;
+    width: auto;
+    height: auto;
+    right: 0;
+}
+#cover .swiper-button-prev::after,
+#cover .swiper-button-next::after {
+    content: "";
+}
+/* ページネーションのセレクタ */
+.swiper-pagination .swiper-pagination-bullet {
+    background-color: #f1f1f1;
+}
+/* アクティブ中のページネーションのセレクタ */
+.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #000;
+}
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 8em;
+}
+h2 {
+    color:#212529 ;
+    font-size: 2.4rem;
+    font-family:"Gothic A1", sans-serif;
+    text-align: center;
+    margin: 1.3em 0 1.1em;
+}
+main ul {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+main ul li{
+    width: 23%;
+}
+main img{
+    width: 100%;
+}
+main section {
+    margin-top: 5em;
+}
+#ranking ul li ,#recommend ul li {
+    width: 18%;
+}
+main ul time {
+    color: #666;
+    margin-top: 1em;
+    display: block;
+}
+main figure figcaption {
+    padding: 0.8em 0;
+}
+main figcaption span {
+    display: block;
+    padding: 0.4em 0;
+}
+main figcaption .sainyuka {
+    display: block;
+    background-color: #aaa;
+    color: #fff;
+    font-size: 0.9em;
+    padding: 0.5em 1em;
+    width: fit-content;
+}
+main figcaption .ete {
+    color: #999;
+}
+main figcaption .price ,.name {
+    color: #495057;
+}
+main dl {
+    display: flex;
+    border-bottom: solid 1px #ddd;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 1.5em 0;
+}
+main dl:first-of-type {
+    border-top: 1px solid #ddd;
+}
+main dl time {
+    display: block;
+    color: #666;
+    width: 8em;
+    padding-right: 2em;
+}
+main .main_4_mobile{
+    display: none;
+}
+.more {
+    border: solid 1px #ddd;
+    padding: 1.2em 8.5em;
+    width: fit-content;
+    margin: 3em auto;
+}
+footer {
+    color:#fff ;
+    background-color: #c6c6c6;
+    padding: 3em 0;
+}
+footer .icon {
+    margin-bottom: 3em;
+    width: 350px;
+    margin: 0 auto 3em;
+}
+footer .icon ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 1.5em;
+}
+footer .footer {
+    max-width: 1050px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+    margin: 0 auto 3em;
+}
+footer .footer_mobile {
+    display: none;
+}
+footer .footer_menu {
+    width: 20%;
+    padding: 0 2em;
+    border-right: solid 1px #fff;
+}
+footer .footer_menu:first-of-type {
+    border-left: solid 1px #fff;
+}
+footer .footer span {
+    display: block;
+    padding-bottom: 1em;
+}
+footer .footer_name {
+    font-size: 1.1em;
+}
+footer .footer_list ul {
+    line-height: 2.5em;
+}
+footer .gmo {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+    margin: 0 auto 3em;
+}
+footer .gmo a {
+    width: 20%;
+    padding-right: 2em;
+}
+h6 {
+    text-align: center;
+}
+
+@media  screen and (min-width:1200px) {
+    header{
+        max-width: 1200px;
+    }
+}
+
+@media  screen and (max-width:768px) {
+    h1 .h1_pc{
+        display: none;
+    }
+    h1 .h1_mobile{
+        display: block;
+        height: 4em;
+    }
+    nav {
+        display: none;
+    }
+    #cover .swiper-wrapper img {
+        display: none;
+    }
+    #cover .swiper-wrapper {
+        aspect-ratio: 600/820;
+    }
+    #cover .swiper-wrapper .swiper-slide {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #cover .swiper-wrapper .swiper-slide.item1 {
+        background-image: url(/images/slide-sp01.jpg);
+    }
+    #cover .swiper-wrapper .swiper-slide.item2 {
+        background-image: url(/images/slide-sp02.jpg);
+    }
+    #cover .swiper-wrapper .swiper-slide.item3 {
+        background-image: url(/images/slide-sp03.jpg);
+    }
+    #cover .swiper-wrapper .swiper-slide.item4 {
+        background-image: url(/images/slide-sp04.jpg);
+    }
+    #cover .swiper-wrapper .swiper-slide.item5 {
+        background-image: url(/images/slide-sp05.jpg);
+    }
+    #cover .swiper-button-wrapper .swiper-button-prev {
+        display: none;
+    }
+    #cover .swiper-button-wrapper .swiper-button-next {
+        display: none;
+    }
+    main #topics {
+        display: none;
+    }
+    main #ranking figure figcaption {
+        width: fit-content;
+    }
+    main #ranking .scroll-wrap {
+        width: 100%;
+        overflow-x: scroll;
+    }
+    main #ranking ul {
+        width: max-content;
+        padding-left: 1em;
+    }
+    main #ranking ul li {
+        width: 75vw;
+        padding-right: 1em;
+    }
+    main #recommend li:last-of-type {
+        display: none;
+    }
+    main #recommend ul {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    main figcaption span {
+        padding: 0.1em 0;
+    }
+    main figcaption .sainyuka {
+        font-size: 0.7em;
+        padding: 0.3em 0.8em;
+    }
+    main figcaption .price {
+        font-size: 1.5em;
+    }
+    main figcaption .name {
+        display: none;
+    }
+    main #recommend ul li {
+        width: 47%;
+    }
+    main .main_4_pc{
+        display: none;
+    }
+    main .main_4_mobile {
+        display: block;
+        height: 4.5em;
+        text-align: center;
+    }
+    main .main_4_mobile img {
+        border: solid 1px #ddd;
+        height: 100%;
+        width: auto;
+        margin: 3em 0;
+        padding: 1em 5em;
+    }
+    main .main_4 ul li {
+        width: 31%;
+    }
+    main dl time {
+        padding-left: 2em;
+    }
+    footer .footer {
+        display: none;
+    }
+    footer .icon {
+        width: 300px;
+    }
+    footer .footer_mobile{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        line-height: 2.5em;
+        margin-bottom: 3em;
+    }
+    footer .gmo .gmo_nav {
+        display: none;
+    }
+    footer .gmo {
+        width: 100%;
+    }
+    footer .gmo a {
+        width: 28%;
+    }
+}

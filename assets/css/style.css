@@ -296,6 +296,7 @@ h6 {
     h1 .h1_mobile{
         display: block;
         height: 4em;
+        width: auto;
     }
     nav {
         display: none;
